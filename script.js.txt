@@ -1,0 +1,17 @@
+script.js
+function saveDate() {
+  let date = document.getElementById("dateInput").value;
+  document.getElementById("savedDate").innerText =
+    "Last cycle saved: " + date;
+}
+
+function showFact() {
+  document.getElementById("fact").innerText =
+    "Fact: Light exercise can reduce cramps and improve mood.";
+}
+
+function saveMood() {
+  let mood = document.getElementById("mood").value;
+  document.getElementById("moodResult").innerText =
+    "Mood recorded: " + mood;
+}

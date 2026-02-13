@@ -1,0 +1,49 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SheSync</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>SheSync</h1>
+    <p>Turning period fear into knowledge and confidence</p>
+  </header>
+
+  <section class="card">
+    <h2>Cycle Tracker</h2>
+    <input type="date" id="dateInput">
+    <button onclick="saveDate()">Save</button>
+    <p id="savedDate"></p>
+  </section>
+
+  <section class="card">
+    <h2>Myth vs Fact</h2>
+    <p id="quiz">Myth: You cannot exercise during your period.</p>
+    <button onclick="showFact()">Reveal Fact</button>
+    <p id="fact"></p>
+  </section>
+
+  <section class="card">
+    <h2>Mood Tracker</h2>
+    <select id="mood">
+      <option>Happy</option>
+      <option>Tired</option>
+      <option>Stressed</option>
+      <option>Calm</option>
+    </select>
+    <button onclick="saveMood()">Save Mood</button>
+    <p id="moodResult"></p>
+  </section>
+
+  <footer>
+    <p>Built for Hack For Her 💜</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
